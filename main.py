@@ -24,7 +24,7 @@ def hello_visitor():
     cursor.execute("SELECT COUNT(*) FROM users")
     count = cursor.fetchone()[0]
     conn.close()
-    return {"message": f"Hello visitor! We have {count} users in the database."}
+    return {"message": f"Olá! Nós temos {count} usuários no banco de dados."}
 
 
 @app.get("/users", response_model=List[User])
