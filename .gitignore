@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+
+# Banco de dados SQLite
+database.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Dependências
+*.egg-info/
